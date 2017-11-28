@@ -1,0 +1,50 @@
+html,body{
+  height:100%;
+  width:100%;
+}
+*{
+  color:#000055;
+  font-family: serif;
+  padding: 0;
+  margin:0;
+}
+a:hover{
+  font-weight: bolder;
+  font-
+  color:
+}
+
+header{
+  height:100px;
+}
+header h1{
+  line-height:100px;
+}
+header a{
+  display:block;
+  color:black;
+  text-decolation:none;
+}
+
+.puwawa{
+  position: relative;
+  height:300px;
+  width:300px;
+}
+.p-body{
+  position: absolute;
+  height:100px;
+  width:110px;
+  margin:20px 50px;
+  border-radius: 50px 50px 45px 45px/50px 50px 45px 45px;
+
+}
+
+.pallet{
+  position:fixed;
+  height:100px;
+  width:100px;
+  bottom:0;
+
+}
+.purple{background-color:#bb88ee}
