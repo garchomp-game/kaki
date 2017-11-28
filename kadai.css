@@ -36,10 +36,30 @@ header a{
   height:100px;
   width:110px;
   margin:20px 50px;
-  border-radius: 50px 50px 45px 45px/50px 50px 45px 45px;
+  border-radius: 50px 50px 45px 45px/
+                 50px 50px 45px 45px;
+  transform: rotate(7deg);
+}
+.p-under{
+  position: absolute;
+  height:10px;
+  width:20px;
+  border-radius: 10px 10px 0 0 /
+                 7px 7px 0 0;
+  margin:117px 80px;
+  transform: rotate(17deg);
 
 }
-
+.pallet2{
+  position:fixed;
+  height:100px;
+  width:100px;
+  bottom:0;
+  margin-left:100px;
+}
+.black{
+  background-color:#000000;
+}
 .pallet{
   position:fixed;
   height:100px;
